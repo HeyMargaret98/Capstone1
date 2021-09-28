@@ -21,28 +21,28 @@ body {
 }
 
 #about,#contact,#portfolio {
-	height: 100vh;
+	/*height: 100vh;*/
 	font-family: 'Scheherazade New', serif;
-	font-size: 1.5rem;
+	/*font-size: 1.5rem;*/
 }
 
-.pCard {
-	height: 80%;
+/*.pCard {
+	height: auto;
+}*/
 
-}
-
-#contactForm {
+/*#contact {
 	background-color: #d0d2eb;
-}
+}*/
 
 h3 {
 	text-align: center;
 	font-family: 'Scheherazade New', serif;
 }
 
-#name	{
+#name{
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 60px;
-	max-resolution: 50;
-
 }
+
+/*#portfolio {
+	margin-bottom: 120px;
+}*/

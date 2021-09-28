@@ -47,75 +47,77 @@
     </nav>
 
     <!-- Main -->
-    <main class="container py-4" id="mainbody">
+    <main class="container-fluid py-4" id="mainbody">
 
       <!-- About -->
       <div id="about" class="text-center">
         <div id="img-container">
-          <img src="./pics/selfie.jpg" id="selfie" height="300px" width="auto">
+          <img src="./pics/selfie.jpg" id="selfie" class="img-fluid" height="auto" width="30%">
         </div>
-        <h3>About Me</h3>
-        <p>I'm Margaret Eugenio, Currently studying at Zuitt Bootcamp to learn about HTML, CSS, BOOTSTRAP,and JAVASCRIPT while working as a Market Data Analyst at night. </p>
+        <h3>Full Stack Developer</h3>
+        <p>SKILLS : HTML | CSS | BOOTSTRAP | JAVASCRIPT </p>
       </div>
+
 
 
       <!-- Porfolio -->
       <h3>My Works</h3>
-      <div class="row text-center" id="portfolio">
-        <div class="col-4">
+      <div class="row text-center my-5" id="portfolio">
+        <div class="col-lg-4 col-xs-12">
           <div class="card pCard">
+            <img src="./pics/google.jpg" class="img-fluid" height="auto" width="100%"  alt="...">
             <div class="card-body">
               <h5 class="card-title">Google</h5>
               <h6 class="card-subtitle mb-2 text-muted">Search Engine</h6>
-              <p class="card-text">is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five companies in the American information technology industry, along with Amazon, Facebook, Apple, and Microsoft.</p>
+             <!--  <p class="card-text">is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five companies in the American information technology industry, along with Amazon, Facebook, Apple, and Microsoft.</p> -->
               <a href="https://google.com" target="_blank" class="card-link">Google link</a>
             </div>
           </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-lg-4 col-xs-12">
           <div class="card pCard">
+            <img src="./pics/fb.jpg" class="img-fluid mx-auto" height="auto" width="50%" alt="...">
             <div class="card-body">
               <h5 class="card-title">Facebook</h5>
               <h6 class="card-subtitle mb-2 text-muted">Images</h6>
-              <p class="card-text">Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name comes from the face book directories often given to American university students.</p>
+              <!-- <p class="card-text">Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name comes from the face book directories often given to American university students.</p> -->
               <a href="https://facebook.com/happymerrymary11" target="_blank" class="card-link">Facebook link</a>
             </div>
           </div>
         </div>
-
-        <div class="col-4">
+        <div class="col-lg-4 col-xs-12">
           <div class="card pCard">
+            <img src="./pics/ig.jpg" class="img-fluid mx-auto pt-3" height="auto" width="45.8%" alt="...">
             <div class="card-body">
               <h5 class="card-title">Instagram</h5>
               <h6 class="card-subtitle mb-2 text-muted">Comments</h6>
-              <p class="card-text">The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging. Posts can be shared publicly or with pre-approved followers. Users can browse other users' content by tags and locations and view trending content. Users can like photos and follow other users to add their content to a personal feed.</p>
+             <!--  <p class="card-text">The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging. Posts can be shared publicly or with pre-approved followers. Users can browse other users' content by tags and locations and view trending content. Users can like photos and follow other users to add their content to a personal feed.</p> -->
               <a href="https://instagram.com/margaretyoo" target="_blank" class="card-link">Instagram link</a>
             </div>
           </div>
         </div>
-
       </div>
 
       <!-- Contact Form -->
 
-      <div class="row" id="contact">
-        <div class="col-xl-10 col-lg-12 text-center bg-light text-dark d-flex justify-content-center m-3">
+      <div class="row my-5 text-center justify-content-center" id="contact">
+        <div class="col-12">
           <h2 class="p-3">Contact Me</h2>
         </div>
-        <div class="col-xl-6 col-lg-6 text-center text-light" id="contactForm">
+        <div class="col-xl-6 col-xs-12" id="contactForm">
           <div class="col-xl-6 col-lg-6 text-dark justify-content-center rounded mb-5 mx-auto form-size p-3">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Margaret">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Margaret Eugenio">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="margaret@example.com">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="margareteugenio11@gmail.com">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+XXXX-XXXXX">
+              <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+00000-00000">
             </div>
             <div class="mb-3">
               <select class="custom-select">
@@ -136,8 +138,8 @@
         </div>
 
         <!-- Map -->
-        <div class="col-6">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.410040986051!2d121.04148921486168!3d14.63265028021332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1632822946509!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="col-xl-6 col-xs-12">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.410040986051!2d121.04148921486168!3d14.63265028021332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1632822946509!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
 
